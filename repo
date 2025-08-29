@@ -1,0 +1,26 @@
+stax-bot/
+│
+├── /src/                     # Core source code (bot engine, API handlers)
+│   ├── trading/              # Trade execution logic
+│   ├── strategies/           # Plug-in strategies (scalping, swing, leverage)
+│   ├── risk/                 # Risk management + fail-safe scripts
+│   ├── auth/                 # API key + user approval system
+│   └── utils/                # Helper functions
+│
+├── /docs/                    # Documentation for users + devs
+│   ├── quickstart.md
+│   ├── developer-guide.md
+│   └── api-reference.md
+│
+├── /config/                  # Config templates
+│   ├── example.env           # Example API key + settings
+│   └── stax.config.json
+│
+├── /tests/                   # Unit + integration tests
+│
+├── /app/                     # Mobile + Web App source (React Native / Flutter)
+│
+├── LICENSE                   # Open-source license (MIT + STAX branding)
+├── README.md                 # Main landing doc (see draft below)
+├── CONTRIBUTING.md            # Rules for contributors
+└── SECURITY.md               # Responsible disclosure rules
